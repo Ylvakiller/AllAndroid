@@ -1,10 +1,14 @@
 package ylva.chat;
 
+import java.util.Calendar;
 import java.util.Set;
 import java.util.ArrayList;
 
+import android.os.Build;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
@@ -30,7 +34,7 @@ public class ConnectScreen extends AppCompatActivity {
         setContentView(R.layout.activity_connect_screen);
         btnPaired = (Button)findViewById(R.id.button);
         deviceList = (ListView)findViewById(R.id.listView);
-
+        Log.d("Ylva", "Application started on "+ Calendar.getInstance().getTime().toString());
         TestBluetooth();
 
         btnPaired.setOnClickListener(new View.OnClickListener() {
@@ -40,7 +44,7 @@ public class ConnectScreen extends AppCompatActivity {
             }
         });
 
-
+        Log.d("Ylva", Build.MANUFACTURER);
 
 
     }
