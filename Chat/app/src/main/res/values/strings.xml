@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="action_settings">Settings</string>
+    <string name="TopText">Welcome to this chat app over Bluetooth</string>
+    <string name="title_activity_connect_screen">ConnectScreen</string>
+<string name="ConnectText">This is the connect screen</string>
+    <string name="is_master">Is Master?</string>
+    <string name="connect">Connect</string>
+    <string name="text_will_appear_here">Text will appear here</string>
+    <string name="send">Send</string>
+    <string name="load_list_of_paired_devices">Load list of paired devices</string>
+</resources>
